@@ -14,7 +14,7 @@ import numpy as np
 
 def read_category():
     # 读取Product_bestsellers_category的数据并去重
-    with open('/Users/zhangjun/Desktop/demo/已处理.csv', 'r') as csvfile:
+    with open('./待统计数据表.csv', 'r') as csvfile:
         reader = csv.DictReader(csvfile)
         category_list = []
         for row in reader:
@@ -29,7 +29,7 @@ def read_category():
 
 def read_detail(category_list):
     for category in category_list:
-        with open('/Users/zhangjun/Desktop/demo/已处理.csv', 'r') as csvfile:
+        with open('./待统计数据表.csv', 'r') as csvfile:
             reader = csv.DictReader(csvfile)
             my_list = []
             for row in reader:
