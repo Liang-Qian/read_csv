@@ -4,9 +4,9 @@ This is a program that processes CSV tables and uses pandas to calculate the bit
 
 **一、用途：**
 
-​	1、[read_csv_tantile.py](https://github.com/zhangjun0827/read_csv/blob/master/read_csv_tantile.py)将amazon的Best sellers下的指定类别下各小类别下的整理好的数据使用pandas进行统计，计算各列的分位值、标准差、最大、小值等。
+​	1、[read_csv_tantile.py](https://github.com/zhangjun0827/read_csv/blob/master/read_csv_tantile.py)：将amazon的Best sellers下的指定类别下各小类别下的整理好的数据使用pandas进行统计，计算各列的分位值、标准差、最大、小值等。
 
-​	2、[read_csv_brand.py](https://github.com/zhangjun0827/read_csv/blob/master/read_csv_brand.py)将amazon的Best sellers下的指定类别下各小类别下的品牌进行统计，计算出不同品牌在不同类别下的占比。	
+​	2、[read_csv_brand.py](https://github.com/zhangjun0827/read_csv/blob/master/read_csv_brand.py)：将amazon的Best sellers下的指定类别下各小类别下的品牌进行统计，计算出不同品牌在不同类别下的占比。	
 
 
 
